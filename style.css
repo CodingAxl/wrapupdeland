@@ -27,26 +27,23 @@ header {
 header .logo{
     margin: 0 auto;
     overflow: hidden;
-    -moz-transition: margin 0.2s ease-in-out;
-    -o-transition: margin 0.2s ease-in-out;
-    -webkit-transition: margin 0.2s ease-in-out;
-    transition: margin 0.2s ease-in-out;
     float:left;
  
-    
-
 }
 
 header .header-content h1 img{
-    max-width: 175px;
-    max-height: 150px;
+    max-width: 160px;
+    max-height: 145px;
+    height:100%;
+    width:100%;
     margin-top:35px;
 
 }
 
 .social-block{
-    display: block;
+    margin-left:0px;
     margin-top: 76px;
+    display:block;
     float:right;
     
 }
@@ -55,7 +52,7 @@ header .header-content h1 img{
     
     text-decoration:none;
     color:white;
-  padding:0px 0px 0px 0px;
+  padding:0px 10px 0px 10px;
 }
 .social-block a:hover{
     
@@ -80,13 +77,14 @@ nav{
 }
 */
 
-nav {
-  width: 80%;
+nav  {
+
   margin: 0 auto;
   background: black;
-  padding: 50px 0;
+  padding: 60px 0;
   box-shadow: 0px 5px 0px #dedede;
 }
+
 nav ul {
   list-style: none;
   text-align: center;
@@ -98,7 +96,7 @@ nav ul li {
 }
 nav ul li a {
   display: block;
-  padding: 12px;
+  padding: 10px;
   text-decoration: none;
   color: #fff;
   font-weight: 700;
@@ -113,6 +111,10 @@ nav ul li a:before {
 nav ul li a:hover {
   color: #42cb17;
   text-decoration:none;
+}
+nav.stroke{
+      display:inline-block;
+  width: 58%;
 }
 
 nav.stroke ul li a {
@@ -159,3 +161,67 @@ header li{
     
 }
 */
+
+@media only screen and (max-width: 880px) {
+
+header nav.stroke{
+    display:none;
+}
+}
+/* MOBILE NAV TEST */
+@media screen and (max-width: 880px){
+.mobile-nav {
+    position: fixed;
+    z-index: 99999;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 64px;
+    background: #4faa39;
+}
+.mobile-nav .btn .text {
+    color: #faf8f4;
+    text-transform: uppercase;
+}
+.mobile-nav .btn {
+    position: absolute;
+    height: 100%;
+    display: block;
+    width: 20%;
+    background: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 9px;
+}
+
+.mobile-nav .btn .btn-carte {
+    left: 0;
+}
+.btn.btn-restaurant {
+    left: 20%;
+}
+.mobile-nav .btn.btn-contact {
+    left: 40%;
+}
+.btn.btn-news {
+    left: 60%;
+}
+.mobile-nav .btn.btn-phone {
+    left: 80%;
+    background: #1f670d;
+}
+.mobile-nav .btn.btn-carte .btn-inside {
+    padding-top: 18px;
+}
+.mobile-nav .btn .btn-inside {
+    display: block;
+    height: 100%;
+    border-right: 1px solid #212f4b;
+}
+.mobile-nav .btn.btn-restaurant .btn-inside {
+    padding-top: 14px;
+}
+
+
+}
