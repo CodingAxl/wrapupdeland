@@ -18,7 +18,7 @@ header {
     width: 100%;
     max-width: 100%;
     background: #fff;
-    height: 100px;
+    height:85px;
     overflow: hidden;
     background-color:black;
     
@@ -36,13 +36,13 @@ header .header-content h1 img{
     max-height: 145px;
     height:100%;
     width:100%;
-    margin-top:0px;
+    margin-top:10px;
 
 }
 
 .social-block{
     margin-left:0px;
-    margin-top: 76px;
+    margin-top: 45px;
     display:block;
     float:right;
     
@@ -64,7 +64,7 @@ header .header-content h1 img{
     max-width: 85%;
     margin: 0 auto;
     overflow: hidden;
-    max-height: 100px;
+    
 }
 
 
@@ -115,7 +115,7 @@ nav ul li a:hover {
 nav.stroke{
       display:inline-block;
   width: 58%;
-  margin-top:-15px;
+  margin-top:-25px;
 }
 
 nav.stroke ul li a {
@@ -180,7 +180,7 @@ header nav.stroke{
     right: 0;
     display: block;
     height: 60px;
-    background: #000;
+    background: #2c332b;
 }
 .mobile-nav .btn .text {
     color: #faf8f4;
@@ -190,40 +190,58 @@ header nav.stroke{
     position: absolute;
     height: 100%;
     display: block;
-    width: 20%;
-    background: black;
+    width: 25%;
+    background: #2c332b;
     text-decoration: none;
     text-align: center;
     font-size: 9px;
+    border-right: solid 1px gray;
+    opacity: .7;
+}
+
+.mobile-nav .btn:hover {
+    background: #2c332b;
+    opacity: 1;
+
 }
 
 .mobile-nav .btn .btn-carte {
     left: 0;
 }
 .btn.btn-restaurant {
-    left: 20%;
+    left: 25%;
 }
 .mobile-nav .btn.btn-contact {
-    left: 40%;
-}
-.btn.btn-news {
-    left: 60%;
+    left: 50%;
+    border-right:none;
 }
 .mobile-nav .btn.btn-phone {
-    left: 80%;
+    left: 75%;
     background: #1f670d;
 }
 .mobile-nav .btn.btn-carte .btn-inside {
-    padding-top: 18px;
+    padding-top: 7px;
 }
 .mobile-nav .btn .btn-inside {
     display: block;
     height: 100%;
-    border-right: 1px solid #212f4b;
+
+}
+
+.mobile-nav .btn.btn-phone  {
+    border-right: none;
+    padding-top:12px;
 }
 .mobile-nav .btn.btn-restaurant .btn-inside {
-    padding-top: 14px;
+    padding-top: 7px;
+}
+.mobile-nav .btn.btn-contact .btn-inside {
+    padding-top: 7px;
 }
 
-
+.mobile-nav .btn.btn-carte .icon {
+    background-image: url(../img/wrap.png);
+    width: 29px;
+    height: 24px;
+}
 }
