@@ -163,6 +163,19 @@ header li{
 }
 */
 
+
+.carousel {
+  max-height: 300px;
+  overflow: hidden;
+}
+.carousel-example-generic img {
+    min-width: 100%;
+}
+
+
+
+
+
 @media only screen and (max-width: 880px) {
 
 header nav.stroke{
