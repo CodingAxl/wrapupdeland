@@ -112,6 +112,8 @@ nav ul li a:hover {
   color: #42cb17;
   text-decoration:none;
 }
+
+
 nav.stroke{
       display:inline-block;
   width: 58%;
@@ -120,7 +122,15 @@ nav.stroke{
 
 nav.stroke ul li a {
   position: relative;
+  text-decoration:none;
 }
+
+nav.stroke ul li a {
+  position: relative;
+  text-decoration:none;
+}
+
+
 nav.stroke ul li a:after {
   position: absolute;
   bottom: 0;
@@ -136,6 +146,8 @@ nav.stroke ul li a:after {
 nav.stroke ul li a:hover:after {
   width: 100%;
 }
+
+
 
 
 
@@ -164,13 +176,54 @@ header li{
 */
 
 
-.carousel {
-  max-height: 300px;
-  overflow: hidden;
+
+
+/* CAROUSEL STUFF */
+#carousel-example-generic{
+   top: -55px;
 }
-.carousel-example-generic img {
-    min-width: 100%;
+
+.carousel-inner {
+  max-height: 640px;
+ 
 }
+
+.carousel-control{
+    bottom:-10px;
+    
+}
+
+/* CAROUSEL STUFF */
+
+/* Home intro  */
+
+
+.home-intro{
+    max-width:768px;
+}
+
+.home-intro .col-left {
+    width:33.33%;
+    float:left;
+    display:block;
+}
+.home-intro .col-right{
+    width:33.33%;
+    float:left;
+    display:block;
+}
+.home-intro .col-center{
+    width:33.33%;
+    float:left;
+    display:block;
+}
+
+
+
+
+
+
+
 
 
 
