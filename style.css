@@ -4,6 +4,7 @@
     line-height: 16px;
     color: #040404;
     background: #fff;
+    margin:0;
 
 }
 
@@ -198,8 +199,13 @@ header li{
 /* Home intro  */
 
 
-.home-intro{
-    max-width:768px;
+.home-intro {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: #0e2046;
+    overflow: hidden;
+    position: relative;
 }
 
 .home-intro .col-left {
