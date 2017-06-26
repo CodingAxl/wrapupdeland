@@ -5,6 +5,7 @@
     color: #040404;
     background: #fff;
     margin:0;
+    position:absolute;
 
 }
 
@@ -198,34 +199,55 @@ header li{
 
 /* Home intro  */
 
-
-.home-intro {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 50px 0;
-    color: #0e2046;
-    overflow: hidden;
-    position: relative;
+.home-intro{
+    height:250px;
+    margin-top:-55px;
 }
 
-.home-intro .col-left {
-    width:33.33%;
-    float:left;
+
+.menu-left{
+    text-align:center;
     display:block;
-}
-.home-intro .col-right{
-    width:33.33%;
+    margin-top:-55px;
+    width:50%;
     float:left;
-    display:block;
+    border-right: 3px solid #bfc0c1;
 }
-.home-intro .col-center{
-    width:33.33%;
-    float:left;
+.menu-right{
+    text-align:center;
     display:block;
+    margin-top:-55px;
+    width:50%;
+    float:right;
 }
 
+.card{
+    display:block;
+    height:200px;
+    
+}
 
+.short {
+    background: #bfc0c1;
+    border: 0;
+    height: 2px;
+    width: 350px;
+}
 
+.long {
+    background: #bfc0c1;
+    border: 0;
+    height: 2px;
+    width: 400px;
+}
+
+h2 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
 
 
 
